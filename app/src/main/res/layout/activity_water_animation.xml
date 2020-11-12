@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".WaterAnimation">
+
+    <ImageView
+        android:id="@+id/tap_img"
+        android:layout_width="0dp"
+        android:layout_height="332dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tap3x" />
+
+    <ImageView
+        android:id="@+id/drop_img"
+        android:layout_width="49dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintEnd_toEndOf="@+id/tap_img"
+        app:layout_constraintTop_toBottomOf="@+id/tap_img"
+        app:srcCompat="@drawable/drop3x" />
+
+    <ImageView
+        android:id="@+id/stream_img"
+        android:layout_width="253dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tap_img"
+        app:layout_constraintVertical_bias="0.509"
+        app:srcCompat="@drawable/stream3x" />
+
+    <ImageView
+        android:id="@+id/spray_img"
+        android:layout_width="253dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tap_img"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/spray3x" />
+
+    <ImageView
+        android:id="@+id/turn_on_img"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        app:srcCompat="@drawable/button_turn_on" />
+
+    <ImageView
+        android:id="@+id/turn_off_img"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        app:srcCompat="@drawable/button_turn_off" />
+</androidx.constraintlayout.widget.ConstraintLayout>
