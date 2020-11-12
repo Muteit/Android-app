@@ -1,5 +1,7 @@
 /build
 /.idea
+.idea/
+.github/
 /.idea/workspace.xml
 /.idea/libraries
 /captures
