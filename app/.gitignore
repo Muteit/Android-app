@@ -1,6 +1,6 @@
 /build
 /.idea
-.idea/
+*idea/
 /.idea/workspace.xml
 /.idea/libraries
 /captures
