@@ -6,5 +6,5 @@
 /.idea/libraries
 /captures
 .externalNativeBuild
-FUNDING.yml/
+*.yml
 
