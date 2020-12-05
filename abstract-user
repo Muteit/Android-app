@@ -1,0 +1,18 @@
+class User (name,age,lastName){
+  class head (size, form){
+    class eyes (size, color){},
+    class nose (size, form, length){},
+    class lips (size, color){}
+  }
+  class body(){
+    class hands(length,size){
+      class fingers(flexibility){} 
+    }
+    class legs(length,flexibility){
+      function run(){
+        legs.move
+      }
+    } 
+  }
+  User.run() //"заставляем" нашего пользователя бежать
+}
